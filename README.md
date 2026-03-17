@@ -1,16 +1,47 @@
-# React + Vite
+# 🚀 n8n WhatsApp Bulk Messaging Automation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an automated workflow built using **n8n** that allows sending bulk WhatsApp messages efficiently using a contact file. It eliminates manual effort and enables scalable communication.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+- 📂 Upload contacts via CSV/Excel file  
+- 💬 Send personalized WhatsApp messages  
+- ⚡ Automated workflow using n8n  
+- 🔗 Integration with WhatsApp API  
+- ⏱️ Real-time execution  
+- 📊 Success & failure response tracking  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **n8n** – Workflow automation  
+- **Node.js / Express** – Backend  
+- **React** – Frontend UI  
+- **WhatsApp API** – Message sending  
+
+---
+
+## 🔄 Workflow
+
+1. User uploads a contact file  
+2. User enters a message  
+3. Frontend sends data to n8n webhook  
+4. n8n processes the file  
+5. Loop runs for each contact  
+6. WhatsApp API sends messages  
+7. Results are returned and displayed  
+
+---
+
+## 📸 Use Cases
+
+- 📢 Marketing campaigns  
+- 🔔 Notifications & alerts  
+- 📬 Bulk communication  
+
+---
+
+© 2026 Punit Sahu. All rights reserved.
