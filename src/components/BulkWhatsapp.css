@@ -1,0 +1,93 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  position: relative;
+}
+
+.glow {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(34,197,94,0.15) 0%, transparent 70%);
+  filter: blur(120px);
+}
+
+.card {
+  width: 600px;
+  background: #111827;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  color: white;
+  z-index: 2;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.input {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  color: white;
+}
+
+.textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  color: white;
+  resize: none;
+}
+
+.button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  background: #22c55e;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background: #6b7280;
+}
+
+.result {
+  margin-top: 30px;
+  padding: 20px;
+  background: #020617;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+}
+
+.progress-bg {
+  height: 10px;
+  background: #374151;
+  border-radius: 6px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #22c55e;
+  transition: 0.4s;
+}
